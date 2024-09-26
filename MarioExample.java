@@ -8,14 +8,14 @@ public class MarioExample {
         Heroe melvin = new Heroe("Melvin");
         System.out.println("It's super Melvin Bros");
         Scanner lector = new Scanner(System.in);
-        
+        Char tecla;
 
     do{
            System.out.println("Sobrevive");
            System.out.println("a. Salta");
            System.out.println("s. Mueve");
            System.out.println("z. Salir");
-            char tecla = lector.next().charAt(0);
+            tecla = lector.next().charAt(0);
             tecla = Character.toLowerCase(tecla);
             switch (tecla) {
                 case 's':
